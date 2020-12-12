@@ -7,7 +7,6 @@ void mouseMove(Madness::Window* window, double x, double y) {
 	t2.SetB(Madness::Vec(0.1 / x, -0.1 / y, 0.0f, 1.0f));
 	t2.SetC(Madness::Vec(0.2 / x, 0.1 / y, 0.0f, 1.0f));
 	t2.SetColor(Madness::Vec(0.5, 0.8, 0.2, 0));
-
 	window->Add(t2);
 }
 
